@@ -32,7 +32,7 @@ Actualmente, ya se encuentra desplegado por lo que se pueden utilizar los endpoi
 El endpoint createItemDB es un método POST que permite crear un nuevo ítem en la base de datos. Utiliza la siguiente URL:
 
 ```
-POST https://jvydzk4mg4.execute-api.us-east-1.amazonaws.com/{model}/{id}
+POST https://sftaofl7k7.execute-api.us-east-1.amazonaws.com/{model}/{id}
 
 ```
 
@@ -46,13 +46,13 @@ Ejemplo de solicitud:
 
 
 ```bash
-curl -X POST https://jvydzk4mg4.execute-api.us-east-1.amazonaws.com/films/1
+curl -X POST https://sftaofl7k7.execute-api.us-east-1.amazonaws.com/films/1
 ```
 
 ### 'getItemDB'
 El endpoint getItemDB es un método GET que permite obtener un ítem de la base de datos. Utiliza la siguiente URL:
 ```
-GET https://jvydzk4mg4.execute-api.us-east-1.amazonaws.com/{model}/{id}
+GET https://sftaofl7k7.execute-api.us-east-1.amazonaws.com/{model}/{id}
 ```
 
 Esta función realiza los siguientes pasos:
@@ -63,7 +63,7 @@ Ejemplo de solicitud:
 
 
 ```bash
-curl -X GET https://jvydzk4mg4.execute-api.us-east-1.amazonaws.com/films/1
+curl -X GET https://sftaofl7k7.execute-api.us-east-1.amazonaws.com/films/1
 ```
 
 ## CI/CD
