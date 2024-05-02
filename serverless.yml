@@ -1,4 +1,4 @@
-service: serverless-indra-project
+service: serverless-softek-project
 frameworkVersion: '3'
 
 provider:
